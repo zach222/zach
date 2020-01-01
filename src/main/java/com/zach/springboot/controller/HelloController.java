@@ -13,7 +13,7 @@ public class HelloController {
     @RequestMapping("/hello")
     public Articl hellWorld( String name){
 
-        Articl articl = new Articl(1L,"zach");
+        Articl articl = new Articl(3L,"zach");
         log.info("测试代码"+ articl);
         return articl;
 
